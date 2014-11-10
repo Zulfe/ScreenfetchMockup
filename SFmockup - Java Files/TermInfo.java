@@ -39,7 +39,7 @@ public class TermInfo {
 		"",
 		"",
 		"",
-		currentUser.SYSOS = "SYSOS = " + (System.getProperty("os.name")) + "windows"/*For debugging, add ' + "windows" ' */,
+		currentUser.SYSOS = "SYSOS = " + (System.getProperty("os.name"))/*For debugging, add ' + "windows" ' */,
 		currentUser.SYSVERS = "SYSVERS = " + (System.getProperty("os.version")),
 		currentUser.SYSARCH = "SYSARCH = " + (System.getProperty("os.arch")),
 		currentUser.USERID = "USERID = " + (System.getProperty("user.name")),
